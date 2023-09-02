@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+}
+
+.main {
+    margin: 10px 50px;
+}
+
+.tile {
+    background-color: #444343;
+    height: 480px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.tile img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 800
+}
+
+.desc {
+    margin: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+
+/*------------------------------*/
+
+.navbar-bottom {
+    position: fixed;
+    background-color: #201f1f;
+    border-radius: 10px;
+    bottom: 10px;
+    width: 40vw;
+    left: 30vw;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width:730px) {
+    .navbar-bottom {
+        width: 76vw;
+        left: 12vw;
+    }
+}
+
+.navbar-bottom span , .navbar-bottom a {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-weight: 500;
+}
+
+.navbar-bottom span:hover:not(.navbar-bottom .current) {
+    transform: scale(1.05);
+}
+
+.navbar-bottom .current {
+    border: 2px solid #FFFFFF;
+}
+
+.nav-link {
+    color:#ffffff;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+

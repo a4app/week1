@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="../css/contact.css">
+		<script src="../javascript/contact.js"></script>
+		<title>Contact</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link">Contact</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+		<div class="row">
+            <div class="container-fluid col-md-3 col-sm-12">
+                <div class="main justify-content-center d-flex">
+					<div class="medias">
+						<a href="https://instagram.com/fav_z_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank">
+							<div class="tile">
+								<div class="row">
+									<div class="col-4 logo">
+										<img src="../images/instagram.png" alt="logo">
+									</div>
+									<div class="col-8">
+										<div class="media-desc"><b>Instagram</b><br>fav_z_</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="https://www.facebook.com/profile.php?id=100009236686348" target="_blank">
+							<div class="tile">
+								<div class="row">
+									<div class="col-4 logo">
+										<img src="../images/facebook.jpg" alt="logo">
+									</div>
+									<div class="col-8">
+										<div class="media-desc"><b>Facebook</b><br>Favas Monu</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="mailto:favasmonu263@gmail.com" target="_blank">
+							<div class="tile">
+								<div class="row">
+									<div class="col-4 logo">
+										<img src="../images/gmail.jpg" alt="logo">
+									</div>
+									<div class="col-8">
+										<div class="media-desc"><b>GMail</b><br>favasmonu263</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+                </div>
+            </div>
+            <div class="form container-fluid col-md-9 col-sm-12 justify-content-center d-flex">
+                <div class="form-div container-fluid">
+                    <div class="form-head container-fluid">
+                        Enquiries
+                    </div>
+					<div class="form-items container-fluid">
+						<form>
+							<label for="name">Name : </label>
+							<span id="namespan"></span>
+								<br>
+							<input type="text" id="name" name="name" placeholder="Name . .  .">
+								<br><br>
+							<label for="email">Email :  </label>
+							<span id="emailspan"></span>
+								<br>
+							<input type="email" name="email" id="email" placeholder="Email . .  .">
+								<br><br>
+							<label for="msg">Message : </label>
+							<span id="msgspan"></span>
+								<br>
+							<textarea name="msg" id="msg" cols="100" rows="2" placeholder="message . .  ."></textarea>
+								<br><br>
+							<input type="button" value="Submit" onclick="fun()">
+								<br>
+						</form>
+					</div>
+                </div>
+            </div>
+        </div>
+
+		<!--Bootstrap js-->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+		<script src="../bootstrap/js/bootstrap.js"></script>
+		<!---->
+	</body>
+</html>

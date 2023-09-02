@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+
+.main {
+    height: 80vh;
+}
+
+.pic-div {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.two {
+    height: 80vh;
+}
+
+img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 2px solid#FFFFFF;
+}
+
+.about-head {
+    color: #FFFFFF;
+    position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Gill Sans';
+    text-align: center;
+}
+
+.about-detail {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    width: 100%;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 770px) {
+    .main {
+        height: 40vh;
+    }
+
+    .about-head {
+        margin: 0;
+    }
+
+    .about-me {
+        height: min-content;
+    }
+
+    .two {
+        height: min-content;
+    }
+}
+
+.nav-link {
+    color:#ffffff;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    transform: scale(1.05);
+}
+
+
